@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    background-color: white;
+    height: 1700px;
+    display: flex;
+}
+#text{
+    width:40%;
+    color: black;
+    padding-top: 600px;
+    padding-right: 70px;
+    animation: mover 2s linear infinite;
+}
+@keyframes mover{
+    0%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+    50%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+        transform:translateY(30px);
+    }
+    100%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+}
+
+.img1 img{
+    width: 100%;
+    
+    
+}
+.hey{
+    font-size: 50px;
+    color: brown;
+}
+.daniel{
+    font-size: 150px;
+    
+}
+.write{
+    font-size: 25px;
+    color: brown;
+}
+.second{
+    height:1000px;
+    background-color:brown;
+    width: 100%;
+}
+
+
+/* next div my skills */
+.skill_section{
+    background-color:black;
+    padding: 5%;
+    
+}
+
+.skill_name{
+    color:gray;
+    text-transform: uppercase;
+}
+.skill_wrapper{
+    color:white;
+    list-style: none;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.skills_wrapper_list-item{
+    margin-right: 2%;
+    list-style: none;
+    display:flex;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* contact us */
+.contact{
+    background-color: black;
+    height:1000px;
+}
+.writer{
+    background-color: white;
+    width:80%;
+    padding-top: 100px;
+    height:800px;
+    margin-left: 180px;
+}
+.Get{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.a5 a{
+    float:right;
+    padding: 10px;
+    margin-top: -100px;
+}
+.move{
+    padding-left: 60px;
+}
+.message{
+    font-size: 40px;
+}
+.okay{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+input[type=text]{
+    background-color:gray;
+    height:100px; 
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.tact{
+    background-color:gray;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    height:300px;
+}
+
+button[type=button]{
+    background-color:gray;
+    margin-top: 40px;
+    width:150px;
+    height: 100px;
+    border-radius: 0.5rem;
+    font-size: 20px;
+
+}
+.a2 a{
+    text-decoration:none;
+    color: black;
+}
+.foot{
+    background-color: gray;
+    height:100px;
+    display: flex;
+    
+}
+.a6 a{
+    margin-left: 10px;
+    padding:1px;
+    width: 25%;
+    
+    
+}
+::placeholder{
+    opacity: 1;
+    font-size: 22px;
+    color: black;
+    padding-left: 10px;
+}
+.copy{
+   color: black;
+   padding-top: 40px;
+   font-size: 30px;
+   width:75%;
+   padding-left: 90px;
+}
